@@ -1,0 +1,31 @@
+GET http://localhost:8080/employees
+
+###
+
+GET http://localhost:8080/employees/1
+
+###
+
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "firstName": "Kiril",
+  "lastName": "Mishevski",
+  "role": "mishevski@test.com"
+}
+
+###
+
+PUT http://localhost:8080/employees/3
+Content-Type: application/json
+
+{
+  "firstName": "Kiril",
+  "lastName": "Mishevski",
+  "role": "kiril@test.com"
+}
+
+###
+
+DELETE http://localhost:8080/employees/3

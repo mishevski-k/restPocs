@@ -1,0 +1,22 @@
+GET http://localhost:8080/orders
+
+###
+
+GET http://localhost:8080/orders/3
+
+###
+
+POST localhost:8080/orders
+Content-Type: application/json
+
+{
+  "description": "Samsung galaxy"
+}
+
+###
+
+PUT localhost:8080/orders/3/complete
+
+###
+
+DELETE localhost:8080/orders/3/cancel
