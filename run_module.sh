@@ -2,7 +2,7 @@
 
 # Check if a module name is provided
 if [ -z "$1" ]; then
-    echo "Usage: $0 {nonrest|rest|evolution|links}"
+    echo "Usage: $0 {nonrest|rest|evolution|links|taskschedule}"
     exit 1
 fi
 
@@ -10,7 +10,7 @@ MODULE=$1
 echo "Module specified: $MODULE"
 
 # Define the allowed modules
-ALLOWED_MODULES=("nonrest" "rest" "evolution" "links")
+ALLOWED_MODULES=("nonrest" "rest" "evolution" "links" "taskschedule")
 
 # Check if the provided module is valid
 if [[ ! " ${ALLOWED_MODULES[@]} " =~ " ${MODULE} " ]]; then

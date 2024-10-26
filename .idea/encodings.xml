@@ -5,7 +5,9 @@
     <file url="file://$PROJECT_DIR$/links/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nonrest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taskschedule/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -3,7 +3,7 @@ setlocal
 
 :: Check if a module name is provided
 if "%~1"=="" (
-    echo Usage: %0 {nonrest|rest|evolution|links}
+    echo Usage: %0 {nonrest|rest|evolution|links|taskschedule}
     exit /b 1
 )
 
@@ -11,7 +11,7 @@ set MODULE=%~1
 echo Module specified: %MODULE%
 
 :: Define the allowed modules
-set ALLOWED_MODULES=nonrest rest evolution links
+set ALLOWED_MODULES=nonrest rest evolution links taskschedule
 
 :: Check if the provided module is valid
 echo Validating module...

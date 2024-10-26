@@ -25,6 +25,7 @@
         <module>rest</module>
         <module>evolution</module>
         <module>links</module>
+        <module>taskschedule</module>
     </modules>
 
     <dependencies>
